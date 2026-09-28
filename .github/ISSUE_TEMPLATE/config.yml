@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Download the latest version
+    url: https://github.com/methunrajmani85-del/Chirp-releases/releases/latest
+    about: Check the problem still happens on the newest release.
