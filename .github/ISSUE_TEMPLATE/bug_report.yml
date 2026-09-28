@@ -1,0 +1,40 @@
+name: Report a problem
+description: Something in Chirp didn't work the way you expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what Chirp did instead.
+    validations:
+      required: true
+  - type: input
+    id: chirp-version
+    attributes:
+      label: Chirp version
+      description: Shown at the top of Settings → Updates, for example "Chirp 2.0.0 (157)".
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: Apple menu → About This Mac.
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac
+      description: For example "MacBook Pro, M3" or "iMac, Intel".
+  - type: input
+    id: engine
+    attributes:
+      label: Speech engine
+      description: On this Mac or cloud, and which one if you know.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots or steps to make it happen again. Leave out anything private you dictated.
